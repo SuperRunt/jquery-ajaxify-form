@@ -22,7 +22,6 @@
 		
 		// assemble the response message html; depends on bootstrap's .alert classes
 		function responseOutput( _respData ){
-            console.log(_respData)
 			var alertClass = _respData.code == 1 ? 'alert-success' : 'alert-error';
 	            $output    = $('<div class="message alert info '+alertClass+'"><a class="close" data-dismiss="alert">×</a><ul></ul></div>');
 	            
