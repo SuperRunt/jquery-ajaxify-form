@@ -1,4 +1,6 @@
 /**
+ * Author: Focus43
+ * https://github.com/SuperRunt/jquery-ajaxify-form
  * jQuery plugin for making all forms with a 
  * certain selector submit via AJAX.
  * @param {Object} $
